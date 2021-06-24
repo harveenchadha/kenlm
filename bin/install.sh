@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo $PWD
 git clone https://github.com/kpu/kenlm.git
 cd kenlm
 mkdir -p build && cd build
