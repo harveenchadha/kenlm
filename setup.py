@@ -55,8 +55,13 @@ ext_modules = [
         extra_compile_args=ARGS)
 ]
 
+# setup(
+#     name='kenlm',
+#     ext_modules=ext_modules,
+#     include_package_data=True,
+# )
+
 setup(
     name='kenlm',
-    ext_modules=ext_modules,
-    include_package_data=True,
+    scripts=['bin/install.sh'],
 )
