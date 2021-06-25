@@ -64,4 +64,5 @@ ext_modules = [
 setup(
     name='kenlm',
     scripts=['bin/install.sh'],
+    include_package_data=True,
 )
